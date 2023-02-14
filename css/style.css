@@ -208,7 +208,7 @@ body {
       }
 
 
-header {
+/*header {
   background-color: white;
   color: white;
   text-align: center;
@@ -226,7 +226,10 @@ section {
   height: 20px;
   text-align: center;
   margin: 1em;
+}
 
+.footer2{
+    position: relative;
+} */
 
-  
 
