@@ -160,7 +160,7 @@ body {
    
    .active,
    .dot:hover {
-      background-color: burlywood;
+      background-color: burlywood; 
    }
    
    /* Fading animation */
@@ -208,7 +208,7 @@ body {
       }
 
 
-/*header {
+header {
   background-color: white;
   color: white;
   text-align: center;
@@ -228,8 +228,5 @@ section {
   margin: 1em;
 }
 
-.footer2{
-    position: relative;
-} */
 
 
