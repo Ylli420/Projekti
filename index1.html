@@ -84,17 +84,17 @@
 
 <section class="team">
     <div class="center">
-      <h1>Our Team</h1>
+      <h1 id="header5">Our Team</h1>
     </div>
 
     <div class="team-content">
       <div class="box">
         <img src="img/ch2.jpg">
-        <h3>Menager</h3>
-        <h5>Artist</h5>
+        <h3>Trey Leach</h3>
+        <h5>Menager</h5>
         <div class="icons">
           <a href="#"><i class="ri-twitter-fill"></i></a>
-          <a href="#"><i class="ri-facebook-box-fill"></i></a>
+          <a href="img/facebook.png"><i class="ri-facebook-box-fill"></i></a>
           <a href="#"><i class="ri-instagram-fill"></i></a>
         </div>
       </div>
@@ -111,9 +111,9 @@
       </div>
 
       <div class="box">
-        <img src="img/ch1.jpg">
-        <h3>Chef</h3>
-        <h5>Artist</h5>
+        <img src="img/ch3.jpg">
+        <h3>Saffron Hogan</h3>
+        <h5>Chef</h5>
         <div class="icons">
           <a href="#"><i class="ri-twitter-fill"></i></a>
           <a href="#"><i class="ri-facebook-box-fill"></i></a>
@@ -122,9 +122,9 @@
       </div>
 
       <div class="box">
-        <img src="img/ch1.jpg">
-        <h3>Chef</h3>
-        <h5>Artist</h5>
+        <img src="img/ch4.jpg">
+        <h3>Sam Yates</h3>
+        <h5>Pizza Profesiona;</h5>
         <div class="icons">
           <a href="#"><i class="ri-twitter-fill"></i></a>
           <a href="#"><i class="ri-facebook-box-fill"></i></a>
@@ -163,48 +163,104 @@
 </div>
 
 
-  <footer class="footer">
-     <div class="container4s">
-      <div class="row">
-        <div class="footer-col">
-          <h4>company</h4>
-          <ul>
-            <li><a href="#">about us</a></li>
-            <li><a href="#">our services</a></li>
-            <li><a href="#">privacy policy</a></li>
-            <li><a href="#">affiliate program</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>get help</h4>
-          <ul>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Locations</a></li>
-            <li><a href="#">Foods</a></li>
-            <li><a href="#">Reservations</a></li>
-            <li><a href="#">Payment options</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Online Services</h4>
-          <ul>
-            <li><a href="#">Pizza</a></li>
-            <li><a href="#">Burger</a></li>
-            <li><a href="#">Sald</a></li>
-            <li><a href="#">-----</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>follow us</h4>
-          <div class="social-links">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          </div>
-        </div>
-      </div>
-     </div>
+<!-- foods -->
+
+<h2>Foods We Mde</h2>
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('nature')">Pizza</button>
+  <button class="btn" onclick="filterSelection('cars')"> Hamburger</button>
+  <button class="btn" onclick="filterSelection('people')"> others</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column nature">
+    <div class="content">
+      <img src="img/pizza1.jfif" alt="Mountains" style="width:70% " height="50px">
+      <h4>Mountains</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+      <img src="" alt="Lights" style="width:100%">
+      <h4>Lights</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+      <img src="" alt="Nature" style="width:100%">
+      <h4>Forest</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <div class="column cars">
+    <div class="content">
+      <img src="" alt="Car" style="width:100%">
+      <h4>Retro</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+      <img src="" alt="Car" style="width:100%">
+      <h4>Fast</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+      <img src="" alt="Car" style="width:100%">
+      <h4>Classic</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <div class="column people">
+    <div class="content">
+      <img src="" alt="People" style="width:100%">
+      <h4>Girl</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+      <img src="" alt="People" style="width:100%">
+      <h4>Man</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+      <img src="" alt="People" style="width:100%">
+      <h4>Woman</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+
+
+
+    <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="img/facebook.png"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+                   </footer>
+    </div>
+</div>
+
+
 
 
 
