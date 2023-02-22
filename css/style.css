@@ -83,7 +83,7 @@ body {
       height: 600px;
    }
    
-   /* Slideshow container */
+
    
    .slideshow-container {
       max-width: 100vw;
@@ -91,7 +91,7 @@ body {
       margin-top: 5%;
    }
    
-   /* Next & previous buttons */
+
    
    .prev,
    .next {
@@ -109,21 +109,19 @@ body {
       user-select: none;
    }
    
-   /* Position the "next button" to the right */
+   
    
    .next {
       right: 0;
       border-radius: 3px 0 0 3px;
    }
    
-   /* On hover, add a black background color with a little bit see-through */
    
    .prev:hover,
    .next:hover {
       background-color: rgba(0, 0, 0, 0.8);
    }
    
-   /* Caption text */
    
    .text {
       color: #ff0000;
@@ -145,8 +143,6 @@ body {
       top: 0;
    }
    
-   /* The dots/bullets/indicators */
-   
    .dot {
       cursor: pointer;
       height: 15px;
@@ -163,7 +159,6 @@ body {
       background-color: burlywood; 
    }
    
-   /* Fading animation */
    
    .fade {
       animation-name: fade;
@@ -385,105 +380,3 @@ input[type=submit]:hover {
 }
 
 
-
-
-
-/*.underline {
-    margin: 0 auto;
-    width: 70px;
-    height: 5px;
-    background-color: #f0ad4e;
-}
-
-.menu-items {
-   
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-}
-
-.card {
-    min-width: 600px;
-    margin: 0;
-    padding: 0 10px;
-    border: none;
-    background: none;
-}
-
-.card-body {
-    padding: 0;
-    padding: 0px 20px;
-}
-
-.card img {
-    width: 267px;
-    height: 167px;
-}
-
-@media only screen and (max-width: 780px) and (min-width:590px) {
-    .card {
-        padding: 10px 100px;
-                width: 90%;
-        margin: 0 auto;
-       
-    }
-    .card img {
-        width: 100%;
-        height: 200px;
-        
-        margin: 0 auto;
-       
-    }
-    .card-body {
-        padding: 0;
-    }
-    .card-title {
-        margin-top: 20px;
-    }
-}
-
-@media only screen and (max-width: 1400px) and (min-width:780px) {
-    .card {
-        padding: 10px 10px;
-        max-width: 700px;
-    }
-    .menu-items {
-        justify-content: center;
-    }
-}
-
-@media only screen and (max-width: 590px) {
-
-    .card {
-        padding: 1em 8em;
-    }
-    .card img {
-        width: 100%;
-    }
-    .card-body {
-        padding: 0;
-    }
-    .card-title {
-        margin-top: 20px;
-    }
-}
-
-.card-title {
-    width: 100%;
-    border-bottom: 1px dotted black;
-    display: flex;
-    justify-content: space-between;
-}
-
-.card-title h5,
-.price {
-    letter-spacing: 2px;
-}
-
-.card-text {
-    color: steelblue;
-    word-spacing: 1px;
-    letter-spacing: 1px;
-}
-
-*/
